@@ -1,0 +1,5 @@
+<!-- This module to create  -->
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Asos_Ethical" setup_version="1.0.2" />
+</config>
