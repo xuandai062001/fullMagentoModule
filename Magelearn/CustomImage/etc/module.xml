@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Magelearn_CustomImage" setup_version="1.0.0">
-    </module>
-</config>
-<!-- This module is used to create custom image for category
-    I followe this blog http://vijaymrami.blogspot.com/2021/01/magento-2-create-new-category-eav-image.html
--->
