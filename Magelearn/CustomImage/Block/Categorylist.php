@@ -46,11 +46,13 @@ class Categorylist extends \Magento\Framework\View\Element\Template
     public function getCurrentCategory()
     {
         if (!$this->_category) {
+
             $this->_category = $this->_coreRegistry->registry('current_category');
- 
-            if (!$this->_category) {
-                throw new \Magento\Framework\Exception\LocalizedException(__('Category object could not be found in core registry'));
-            }
+
+           
+            // if (!$this->_category) {
+            //     throw new \Magento\Framework\Exception\LocalizedException(__('Category object could not be found in core registry'));
+            // }
         }
         return $this->_category;
     }
